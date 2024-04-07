@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Shaun's HTML form!</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <form>
+      <div>
+        <label for="name">Name:</label>
+        <br>
+        <input 
+        id="name" 
+        type="text" 
+        name="name"
+        placeholder="Your name here" />
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <br>
+        <input 
+        id="email" 
+        type="email"
+        name="email"
+        placeholder="Your email address here" />
+      </div>
+      <div>
+        <label for="form-message">Your message:</label>
+        <br>
+        <textarea
+          id="form-message"
+          name="message"
+          autofocus="on"
+          required
+          maxlength="1000"
+          placeholder="Your message here"
+        ></textarea>
+      </div>
+    </form>
+
+  </body>
